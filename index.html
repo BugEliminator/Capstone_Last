@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Plant Genomics_Capstone Design</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/subStyle.css">
+
+    <!-- PyScript CSS -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.2.1/core.css">
+
+    <!-- This script tag bootstraps PyScript -->
+    <script type="module" src="https://pyscript.net/releases/2025.2.1/core.js"></script>
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Plant Genomics</span>
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                    src="assets/img/profile.jpg" alt="..." /></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Home</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Test">LAB Test</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Sequence">Sequence Translation</a>
+                </li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#ROADMAP">ROADMAP</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#python">python</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Page Content-->
+    <div class="container-fluid p-0">
+        <!-- Home-->
+        <section class="resume-section" id="about">
+            <div class="resume-section-content">
+                <h1 class="mb-0">
+                    Plant
+                    <span class="text-primary">Genomics</span>
+                </h1>
+                <div class="subheading mb-5">
+                    25457 ) GANGNEUNG-WONJU NATIONAL UNIVERSITY · (033) 640-2352 ·
+                    <a style="color: #2E8B57;">j.ha@gwnu.ac.kr</a>
+                </div>
+                <p class="lead mb-5">Welcome to the Plant Genomics Lab website.</p>
+
+                <!-- <progress value="80" min="0" max="100"></progress>
+                    <br> -->
+
+                <div class="social-icons">
+                    <a class="social-icon" href="https://www.youtube.com/@user-th9xl2pb8v" target="_blank"><i
+                            class="fab fa-youtube"></i></a>
+                    <a class="social-icon" href="https://www.gwnu.ac.kr/sites/kr/intro/index.html" target="_blank"><i
+                            class="fa-solid fa-school"></i></a>
+                    <a class="social-icon"
+                        href="https://plant88.gwnu.ac.kr/plant88/3250/subview.do?enc=Zm5jdDF8QEB8JTJGcHJvZmwlMkZwbGFudDg4JTJGMTQxJTJGMzUxJTJGYXJ0Y2xWaWV3LmRvJTNGcGFnZSUzRDElMjZzcmNoQ29sdW1uJTNEJTI2c3JjaFdyZCUzRCUyNg%3D%3D"
+                        target="_blank"><i class="fa-solid fa-dna"></i></a>
+                    <a class="social-icon" href="https://www.genome.jp/kegg/" target="_blank"><i
+                            class="fa-solid fa-plus"></i></a>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Test 나에게 맞는 랩실 선택하는 테스트 -->
+        <section class="resume-section" id="Test">
+            <div class="resume-section-content">
+                <h2 class="mb-5"><a class="lab-test-link" href="./MBTI/index.html">LAB TEST</a></h2>
+                <div class="test-section">
+                    <img class="test-image" src="./assets/TEST/test_main.png" alt="테스트 메인 화면">
+                    <div class="test-text">
+                        <p>
+                            식물생명과학과에 들어온 당신!<br>
+                            당신에게 맞는 실험실을 찾기 힘들죠?<br>
+                            테스트를 통해 맞는 실험실을 골라줄께요!
+                        </p>
+                    </div>
+                </div>
+                <div class="test-section">
+                    <img class="test-image" src="./assets/TEST/test_questions.png" alt="테스트 질문 화면">
+                    <div class="test-text">
+                        <p>
+                            10가지의 질문을 성의껏 답해줄수록 정확한 결과가 나올 가능성이 높아요
+                        </p>
+                    </div>
+                </div>
+                <div class="test-section">
+                    <img class="test-image" src="./assets/TEST/test_results.png" alt="테스트 결과 화면">
+                    <div class="test-text">
+                        <p>
+                            6가지의 실험실 중 여러분에게 맞는 실험실을 찾길 바래요
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <hr class="m-0" />
+    <!-- Education, 전공 관련 지식 -->
+    <section class="resume-section" id="education">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Education</h2>
+
+            <style>
+                .notice-list li {
+                    margin: 10px 0;
+                    cursor: pointer;
+
+                }
+
+                .modal {
+                    display: none;
+                    position: fixed;
+                    top: 25%;
+                    left: 25%;
+                    width: 60%;
+                    height: 60%;
+                    background-color: rgba(0, 0, 0, 0.7);
+                }
+
+                .modal-content {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background-color: white;
+                    padding: 40px;
+                    text-align: center;
+                    overflow: auto;
+                    /* 스크롤 추가 */
+                }
+
+                .modal-content button {
+                    width: 50px;
+                    /* 원하는 너비로 설정 */
+                    height: 30px;
+                    /* 원하는 높이로 설정 */
+                    position: absolute;
+                    left: 50%;
+                    bottom: 10px;
+                    /* 원하는 위치로 설정 */
+                    transform: translateX(-50%);
+                    /* 다른 스타일 속성들 */
+                }
+
+                /* 유튜브 용 공지사항 */
+                .notice-list_A li {
+                    margin: 10px 0;
+                    cursor: pointer;
+                }
+
+                .modal_A {
+                    display: none;
+                    position: fixed;
+                    top: 25%;
+                    left: 25%;
+                    width: 60%;
+                    height: 60%;
+                    background-color: rgba(0, 0, 0, 0.7);
+                }
+
+                .modal-content_A {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background-color: white;
+                    padding: 20px;
+                    text-align: center;
+                }
+
+                .modal-content_A button {
+                    width: 50px;
+                    height: 30px;
+                    position: absolute;
+                    left: 50%;
+                    bottom: 10px;
+                    transform: translateX(-50%);
+                }
+            </style>
+
+            <ul class="notice-list">
+                <p style="font-size: 20px;"><b>Research notes </b> </p>
+                <li onclick="showModal('  ', 'assets/education/DNA.jpg')">DNA란?</li>
+                <li onclick="showModal('  ', 'assets/education/DNA_RNA.jpg')">DNA와 RNA의 차이</li>
+                <li onclick="showModal('  ', 'assets/education/central dogma.png', '')">Central Dogma</li>
+                <!-- <li onclick="showModal('이미지 설명 3', 'youtube', 'TNKWgcFPHqw')">Gene, Genome, DNA</li> -->
+                <!-- 추가 공지사항 -->
+                <!-- <li onclick="showModal('이미지 설명 4', 'image4.jpg', '글 내용 4')">공지사항 4</li>
+                        <li onclick="showModal('이미지 설명 5', 'image5.jpg', '글 내용 5')">공지사항 5</li> -->
+                <p style="font-size: 20px;"><b><br>Youtube</b> </p>
+            </ul>
+
+            <ul class="notice-list_A">
+                <li onclick="showYouTubeModal_A('', 'TNKWgcFPHqw')">DNA replication</li>
+                <li onclick="showYouTubeModal_A('', 'gG7uCskUOrA')">From DNA to protein</li>
+                <li onclick="showYouTubeModal_A('', 't0P28_w_kV5qpwpw')">DNA Sequencing</li>
+            </ul>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <h2 id="modal-title">모달 제목</h2>
+                    <img id="modal-image" src="" alt="이미지">
+                    <p id="modal-text">모달 내용</p>
+                    <button
+                        style="background-color: #007BFF; color: #fff; border: none; padding: 15px 30px; border-radius: 10px; cursor: pointer; text-align: center; display: flex; align-items: center; justify-content: center;"
+                        onclick="closeModal()">Close</button>
+                </div>
+
+            </div>
+
+            <div id="myModal_A" class="modal_A">
+                <div class="modal-content_A">
+                    <h2 id="modal-title_A">모달 제목</h2>
+                    <iframe id="modal-iframe_A" width="900" height="375" src="" frameborder="0"
+                        allowfullscreen></iframe>
+                    <p id="modal-text_A">모달 내용</p>
+                    <button
+                        style="background-color: #007BFF; color: #fff; border: none; padding: 15px 30px; border-radius: 10px; cursor: pointer; text-align: center; display: flex; align-items: center; justify-content: center;"
+                        onclick="closeModal_A()">Close</button>
+                </div>
+            </div>
+
+            <script>
+                var modal = document.getElementById('myModal');
+                var modalTitle = document.getElementById('modal-title');
+                var modalImage = document.getElementById('modal-image');
+                var modalText = document.getElementById('modal-text');
+
+
+                function showModal(title, imageSrc, text) {
+                    modal.style.display = 'block';
+                    modalTitle.textContent = title;
+                    modalImage.src = imageSrc;
+                    modalText.textContent = text;
+
+
+                }
+
+                function closeModal() {
+                    modal.style.display = 'none';
+                    modalTitle.textContent = '';
+                    modalImage.src = '';
+                    modalText.textContent = '';
+
+                }
+
+                var modal_A = document.getElementById('myModal_A');
+                var modalTitle_A = document.getElementById('modal-title_A');
+                var modalIframe_A = document.getElementById('modal-iframe_A');
+                var modalText_A = document.getElementById('modal-text_A');
+
+                function showYouTubeModal_A(title, videoId) {
+                    modal_A.style.display = 'block';
+                    modalTitle_A.textContent = title;
+                    modalIframe_A.style.display = 'block';
+                    modalIframe_A.src = 'https://www.youtube.com/embed/' + videoId;
+                    modalText_A.textContent = '';
+                }
+
+                function closeModal_A() {
+                    modal_A.style.display = 'none';
+                    modalTitle_A.textContent = '';
+                    modalIframe_A.style.display = 'none';
+                    modalIframe_A.src = '';
+                    modalText_A.textContent = '';
+                }
+            </script>
+
+        </div>
+        </div>
+    </section>
+
+
+    <hr class="m-0" />
+    <!-- Translation 식물 전사체학에 관련된 시퀀스 기능 -->
+    <section class="resume-section" id="Sequence">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Sequence Translation</h2>
+
+            <body>
+                <div style="display: flex;">
+                    <div style="flex: 1;">
+                        <textarea id="mrnaInput" placeholder="Enter mRNA sequence"></textarea>
+                        <button
+                            style="background-color: #007BFF; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;"
+                            onclick="translateMrna()">Translate</button>
+                        <div id="codonOutput"></div>
+                    </div>
+                    <div
+                        style="flex: 1; display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-end;">
+                        <img src="assets/codon_1.png" alt="Your Image" style="max-width: 120%;">
+                    </div>
+                </div>
+                <script>
+                    function translateMrna() {
+                        const mrnaInput = document.getElementById('mrnaInput').value.trim().toUpperCase();
+                        const codonOutput = document.getElementById('codonOutput');
+
+                        if (mrnaInput === '') {
+                            codonOutput.innerText = 'Please enter an mRNA sequence.';
+                            return;
+                        }
+
+                        const codonTable = {
+                            'UUU': 'Phenylalanine',
+                            'UUC': 'Phenylalanine',
+                            'UUA': 'Leucine',
+                            'UUG': 'Leucine',
+                            'CUU': 'Leucine',
+                            'CUC': 'Leucine',
+                            'CUA': 'Leucine',
+                            'CUG': 'Leucine',
+                            'AUU': 'Isoleucine',
+                            'AUC': 'Isoleucine',
+                            'AUA': 'Isoleucine',
+                            'AUG': 'Methionine, Start codon',
+                            'GUU': 'Valine',
+                            'GUC': 'Valine',
+                            'GUA': 'Valine',
+                            'GUG': 'Valine',
+                            'UCU': 'Serine',
+                            'UCC': 'Serine',
+                            'UCA': 'Serine',
+                            'UCG': 'Serine',
+                            'CCU': 'Proline',
+                            'CCC': 'Proline',
+                            'CCA': 'Proline',
+                            'CCG': 'Proline',
+                            'ACU': 'Threonine',
+                            'ACC': 'Threonine',
+                            'ACA': 'Threonine',
+                            'ACG': 'Threonine',
+                            'GCU': 'Alanine',
+                            'GCA': 'Alanine',
+                            'GCC': 'Alanine',
+                            'GCG': 'Alanine',
+                            'UAU': 'Tyrosine',
+                            'UAC': 'Tyrosine',
+                            'UAA': 'Stop',
+                            'UAG': 'Stop',
+                            'CAU': 'Histidine',
+                            'CAC': 'Histidine',
+                            'CAA': 'Glutamine',
+                            'CAG': 'Glutamine',
+                            'AAU': 'Asparagine',
+                            'AAC': 'Asparagine',
+                            'AAA': 'Lysine',
+                            'AAG': 'Lysine',
+                            'GAU': 'Aspartic acid',
+                            'GAC': 'Aspartic acid',
+                            'GAA': 'Glutamic acid',
+                            'GAG': 'Glutamic acid',
+                            'UGU': 'Cysteine',
+                            'UGC': 'Cysteine',
+                            'UGA': 'Stop',
+                            'UGG': 'Tryptophan',
+                            'CGU': 'Arginine',
+                            'CGC': 'Arginine',
+                            'CGA': 'Arginine',
+                            'CGG': 'Arginine',
+                            'AGU': 'Serine',
+                            'AGC': 'Serine',
+                            'AGA': 'Arginine',
+                            'AGG': 'Arginine',
+                            'GGU': 'Glycine',
+                            'GGC': 'Glycine',
+                            'GGA': 'Glycine',
+                            'GGG': 'Glycine'
+                        };
+
+                        let output = '';
+                        for (let i = 0; i < mrnaInput.length; i += 3) {
+                            const codon = mrnaInput.slice(i, i + 3);
+                            if (codonTable[codon]) {
+                                if (codonTable[codon] === 'Stop') {
+                                    output += 'Translation stopped.';
+                                    break;
+                                }
+                                output += `${codon} - ${codonTable[codon]}\n`;
+                            } else {
+                                output += `${codon} - Unknown codon\n`;
+                            }
+                        }
+
+                        codonOutput.innerText = output;
+                    }
+                </script>
+            </body>
+
+        </div>
+    </section>
+    <hr class="m-0" />
+    <!-- ROADMAP 학과 학생들을 위한 전공 수강 가이드 및 로드맵 -->
+    <section class="resume-section" id="ROADMAP">
+        <div class="resume-section-content">
+            <h2 class="mb-5">ROADMAP</h2>
+
+            <style>
+                .button-container_01 {
+                    display: flex;
+                    flex-wrap: wrap;
+                    max-width: 500px;
+                    /* 버튼 배열의 최대 너비 설정 */
+                    margin: 0 auto;
+                    /* 가운데 정렬을 위해 사용 */
+                }
+
+                .button_01 {
+                    margin: 10px;
+                    padding: 10px 20px;
+                    color: #fff;
+                    border: none;
+                    cursor: pointer;
+                    border-radius: 10px;
+                    /* 버튼 모서리를 둥글게 만드는 부분 */
+                    flex: 0 0 calc(33.33% - 20px);
+                    /* 각 버튼의 너비 설정 (3개씩) */
+                }
+
+                /* 각 버튼에 대한 배경색 지정 */
+                .button_01:nth-child(1) {
+                    background-color: #A6CE60;
+                    /* 버튼 1의 배경색 */
+                }
+
+                .button_01:nth-child(2) {
+                    background-color: #99D2B2;
+                    /* 버튼 2의 배경색 */
+                }
+
+                .button_01:nth-child(3) {
+                    background-color: #99D2B2;
+                    /* 버튼 3의 배경색 */
+                }
+
+                .button_01:nth-child(4) {
+                    background-color: #99D2B2;
+                    /* 버튼 4의 배경색 */
+                }
+
+                .button_01:nth-child(5) {
+                    background-color: #609FBA;
+                    /* 버튼 5의 배경색 */
+                }
+
+                .button_01:nth-child(6) {
+                    background-color: #609FBA;
+                    /* 버튼 6의 배경색 */
+                }
+
+                .modal_01 {
+                    display: none;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, 0.7);
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .modal-content_01 {
+                    background-color: #fff;
+                    padding: 50px;
+                    border-radius: 5px;
+                    text-align: center;
+                    position: relative;
+                }
+
+                .close_01 {
+                    position: absolute;
+                    top: 15px;
+                    /* 하단으로 이동 */
+                    right: 15px;
+                    /* 가운데 정렬을 위해 왼쪽 50%로 설정 */
+                    transform: translateX(-50%);
+                    /* 가운데 정렬을 위해 가로 방향으로 -50% 이동 */
+                    cursor: pointer;
+                    width: 30px;
+                    /* 버튼의 너비 */
+                    height: 30px;
+                    /* 버튼의 높이 */
+                    background-color: #ff0000;
+                    /* 박스의 배경색 */
+                    color: #fff;
+                    /* 텍스트 색상 */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 5px;
+                    /* 박스의 모서리를 둥글게 만듭니다. */
+                }
+
+                #modalImage_01 {
+                    max-width: 100%;
+                    max-height: 92vh;
+                }
+            </style>
+
+
+            <div class="button-container_01">
+                <button class="button_01" onclick="openModal_01('assets/roadmap/1.png')">기초과목</button>
+                <button class="button_01" onclick="openModal_01('assets/roadmap/2.png')">스마트팜 <br>재배 및 육종</button>
+                <button class="button_01" onclick="openModal_01('assets/roadmap/3.png')">생명정보 <br>분석 및 연구</button>
+                <button class="button_01" onclick="openModal_01('assets/roadmap/4.png')">식물의학 연구 및 스마트관리</button>
+                <button class="button_01" onclick="openModal_01('assets/roadmap/5.png')">식물생명과학<br>산업실무적용</button>
+                <button class="button_01" onclick="openModal_01('assets/roadmap/6.png')">식물생명과학<br> 지도</button>
+            </div>
+
+            <div id="myModal_01" class="modal_01">
+                <div class="modal-content_01">
+                    <span class="close_01" onclick="closeModal_01()">&times;</span>
+                    <img id="modalImage_01" src="" alt="Image">
+                </div>
+            </div>
+
+            <script>
+                function openModal_01(imageSrc) {
+                    var modal = document.getElementById("myModal_01");
+                    var modalImage = document.getElementById("modalImage_01");
+                    modal.style.display = "flex";
+                    modalImage.src = imageSrc;
+                }
+
+                function closeModal_01() {
+                    var modal = document.getElementById("myModal_01");
+                    modal.style.display = "none";
+                }
+            </script>
+            <img src="assets/roadmap_02.jpg" style="width: 90%;" alt="이미지 설명">
+
+        </div>
+    </section>
+
+    <hr class="m-0" />
+    <!-- python 웹페이지에서 파이썬 코드를 구현할 수 있는 스크립트, 기능 -->
+    <section class="resume-section" id="python">
+        <div class="resume-section-content">
+            <h2 class="mb-5">python</h2>
+            <p class="mb-0">Practice python.</p>
+            <br>
+
+            <script type="py-editor">
+                print("Hello from PyScript editor!")
+            </script>
+
+        </div>
+    </section>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <footer>
+        <p style="text-align: right;">2023 Plant Genomics Lab website</p>
+    </footer>
+
+</body>
+
+</html>

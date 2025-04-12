@@ -1,0 +1,23 @@
+.test-section {
+  display: flex;
+  align-items: center; /* 세로 중앙 정렬 */
+  gap: 20px; /* 이미지와 텍스트 사이 여백 */
+  margin-bottom: 40px;
+}
+
+.test-image {
+  width: 300px;
+  height: auto;
+  display: block;
+}
+
+.lab-test-link {
+  color: #333;
+  transition: all 0.5s ease;
+}
+
+.lab-test-link:hover {
+  color: #2ec7a6;
+  text-decoration: underline;
+  transform: scale(1.02);
+}

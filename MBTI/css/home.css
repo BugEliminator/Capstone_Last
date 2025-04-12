@@ -1,0 +1,33 @@
+body {
+  background-color: #F6FCFF;
+  background-image: url("../images/main_bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.character {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  animation-name: floatAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.캐릭터 {
+  position: absolute;
+  animation: floatAnimation 5s linear infinite;
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: rotatey(0deg);
+  }
+  50% {
+    transform: rotatey(180deg); /* 50% 지점에서 180도 회전 */
+  }
+  100% {
+    transform: rotatey(360deg);
+  }
+}
